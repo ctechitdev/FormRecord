@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 06, 2024 at 08:21 AM
+-- Generation Time: May 06, 2024 at 10:25 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -161,6 +161,32 @@ INSERT INTO `salesperson` (`id`, `salesname`, `s_scode`) VALUES
 (2, '1302 CP-513 Mr. Sivilay Sonethongchan', 1302),
 (3, '157 CP-228 Manivanh Thutaveth', 157),
 (4, '1275 CP-425 Mr. Phetsayvanh Soukvongsa', 1275);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `survey`
+--
+
+CREATE TABLE `survey` (
+  `shopname` varchar(255) DEFAULT NULL,
+  `person1` varchar(255) DEFAULT NULL,
+  `person2` varchar(255) DEFAULT NULL,
+  `salesperson` varchar(255) DEFAULT NULL,
+  `scquality` varchar(255) DEFAULT NULL,
+  `scmarket` varchar(255) DEFAULT NULL,
+  `scprice` varchar(255) DEFAULT NULL,
+  `comment` varchar(255) DEFAULT NULL,
+  `product` varchar(255) DEFAULT NULL,
+  `entry_date` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `survey`
+--
+
+INSERT INTO `survey` (`shopname`, `person1`, `person2`, `salesperson`, `scquality`, `scmarket`, `scprice`, `comment`, `product`, `entry_date`) VALUES
+('test', 'test', NULL, 'test', '5', '5', '5', 'testddd', 'ຢູນີລີເວີ', '2024-05-06');
 
 --
 -- Indexes for dumped tables
