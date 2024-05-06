@@ -123,8 +123,9 @@ body {
 
           <input type="radio" id="product" name="product" value="ຢູນີລີເວີ"/>
            ຢູນີລີເວີ    <br>           
-          <input type="radio" id="product" name="product" value="ຢູນີຊາມ"/> ຢູນີຊາມ <br>
+           <input type="radio" id="product" name="product" value="ຢູນີຊາມ"/> ຢູນີຊາມ <br>
           <input type="radio" id="product" name="product" value="ຟິດເນ"/> ຟິດເນ  <br>
+          <input type="radio" id="product" name="product" value="ຟູໂລ ສະແນກ"/> ຟູໂລ ສະແນກ  <br>
           <input type="radio" id="product" name="product" value="ຢາງລົດບຣີສະໂຕນ"/> ຢາງລົດບຣີສະໂຕນ  <br>
           <input type="radio" id="product" name="product" value="ລົດຈັກ ຢາມາຮາ"/> ລົດຈັກ ຢາມາຮາ  <br>
           <input type="radio" id="product" name="product" value="ຄູໂບຕ້າ"/> Kubota RT-NC  <br>
