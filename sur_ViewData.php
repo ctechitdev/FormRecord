@@ -1,6 +1,6 @@
 <?php
-include_once 'database.php'; 
-//include_once 'database_local.php'; 
+//include_once 'database.php'; 
+include_once 'database_local.php'; 
 
 $valueToSearch ="No data";
 if(isset($_POST['search']))
@@ -72,6 +72,7 @@ if(isset($_POST['search']))
             <table>
                 <tr>
                     <th class="th">ວັນທີ</th>
+                    <th class="th">ສິນຄ້າ</th>
                     <th class="th">ຊື່ຮ້ານ</th>
                     <center>
                     <th class="th">ຜູ້ຕອບຄົນທີ1</th>
@@ -97,6 +98,7 @@ if(isset($_POST['search']))
 				while($row = mysqli_fetch_array($data)){?>
                 <tr>
                     <td class="name"><?php echo $row['entry_date'];?></td>
+                    <td class="name"><?php echo $row['product'];?></td>
                     <td class="name"><?php echo $row['shopname'];?></td>
                     <td class="name"><?php echo $row['person1'];?></td>
                     <td class="name"><?php echo $row['person2'];?></td>
