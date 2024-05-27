@@ -1,6 +1,7 @@
 <?php
-include_once 'database.php'; 
-//include_once 'database_local.php';
+//include_once 'database.php'; 
+include_once 'database.php';
+
 
 $valueToSearch = "No data";
 if (isset($_POST['search'])) {
@@ -45,9 +46,9 @@ if (isset($_POST['search'])) {
 
    </style>   
 </head>
-    <body style=" font-family:Phetsarath OT;">
+    <body>
     <center>
-        <a href="nav.php"><img src="kplogo.png" alt="Hot Air Balloons" width="70" height="70"></a>
+<a href=" nav.php"><img src="kplogo.png" alt="Hot Air Balloons" width="70" height="70"></a>
     </center>
 
     <div>
@@ -59,7 +60,7 @@ if (isset($_POST['search'])) {
             <br>
 
             <h2 style="color: darkblue;">Result of satisfaction survey</h2> <br>
-            <form action="sur_ViewData.php" method="post">
+            <form action="sur_ViewData_int.php" method="post">
                 <input type="text" name="valueToSearch" placeholder="Search customer">
                 <input type="submit" name="search" value="Search"><br><br>
 
@@ -71,41 +72,65 @@ if (isset($_POST['search'])) {
                 <table>
                     <tr>
                         <th class="th">ວັນທີ</th>
-                        <th class="th">ສິນຄ້າ</th>
-                        <th class="th">ຊື່ຮ້ານ</th>
+                        <th class="th">ຊື່ຜຸ້ຕອບ</th>
                         <center>
-                            <th class="th">ຜູ້ຕອບຄົນທີ1</th>
+                            <th class="th">ພະແນກຜູ້ຕອບ</th>
                         </center>
-                        <th class="th">ຜູ້ຕອບຄົນທີ2</th>
+                        <th class="th">ພະແນກຜູ້ຖືກຕອບ</th>
                         <center>
                         </center>
-                        <th class="th">ພະນັກງານຂາຍ</th>
+                        <th class="th">1.ດ້ານຂະບວນການ</th>
                         <center>
-                            <th class="th">ສິນຄ້າ</th>
-                            <th class="th">ການບໍລິການ</th>
-                            <th class="th">ຄວາມເພີງພໍໃຈ</th>
-                            <th class="th">ຄວາມຄິດເຫັນໂດຽລວມ</th>
+                        </center>
+                        <th class="th">2.ດ້ານຄວາມສາມາດ</th>
+                        <center>
+                            <th class="th">3.ຂໍ້ສະດວກ</th>
+                            <th class="th">4.ຄວາມຊັດເຈນ</th>
+                            <th class="th">5.ມີຄວາມເອົາໃຈໃສ່</th>
+                            <th class="th">6.ມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ</th>
+                            <th class="th">7.ມະນຸດສໍາ,ສຸພາບ ແລະ ເປັນມິດ</th>
+                            <th class="th">8.ຄວາມຮູ້ສຶກຕໍ່ພາບລວມ</th>
+                            <th class="th">9.ຄໍາແນະນໍາ</th>
+
+
+
+
+
                             <center>
                     </tr>
 
                     <!-- populate table from mysql database -->
 
                     <?php
-                    $data = mysqli_query($conn, "  SELECT * FROM survey
-                where Entry_date like '%$valueToSearch%' or  shopname like '%$valueToSearch%' or  scquality like '%$valueToSearch%' 
-				or  scmarket like '%$valueToSearch%' or  comment like '%$valueToSearch%'");
+                    $data = mysqli_query($conn, "  SELECT * FROM survey_int
+                where Entry_date like '%$valueToSearch%' or  dept like '%$valueToSearch%' or  dept2 like '%$valueToSearch%' 
+				or  convinient like '%$valueToSearch%' ");
                     while ($row = mysqli_fetch_array($data)) { ?>
+
+
+
+
                         <tr>
                             <td class="name"><?php echo $row['entry_date']; ?></td>
-                            <td class="name"><?php echo $row['product']; ?></td>
-                            <td class="name"><?php echo $row['shopname']; ?></td>
-                            <td class="name"><?php echo $row['person1']; ?></td>
-                            <td class="name"><?php echo $row['person2']; ?></td>
-                            <td class="name"><?php echo $row['salesperson']; ?></td>
-                            <td class="name2"><?php echo $row['scquality']; ?></td>
-                            <td class="name2"><?php echo $row['scmarket']; ?></td>
-                            <td class="name2"><?php echo $row['scprice']; ?></td>
+                            <td class="name"><?php echo $row['responder']; ?></td>
+                            <td class="name"><?php echo $row['dept']; ?></td>
+                            <td class="name"><?php echo $row['Dept2']; ?></td>
+                            <td class="name"><?php echo $row['proceedanstep']; ?></td>
+                            <td class="name"><?php echo $row['skilltoserve']; ?></td>
+                            <td class="name"><?php echo $row['convinient']; ?></td>
+
+                            <td class="name"><?php echo $row['clearexplain']; ?></td>
+                            <td class="name"><?php echo $row['intendtoserve']; ?></td>
+                            <td class="name"><?php echo $row['haveknowledge']; ?></td>
+
+                            <td class="name"><?php echo $row['humanrelate']; ?></td>
+                            <td class="name"><?php echo $row['generalview']; ?></td>
                             <td class="name"><?php echo $row['comment']; ?></td>
+
+
+
+
+
                         </tr>
                     <?php
 

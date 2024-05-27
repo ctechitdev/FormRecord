@@ -139,13 +139,14 @@
             <option value="Unicharm">Unicharm</option>
             <option value="Food Catering">Food Catering</option>
 
-            <option value="Bridstone Tyres">Bridstone TyresYamaha</option>
+            <option value="Bridgestone Tyres">Bridgestone Tyres</option>
+            <option value="Yamaha">Yamaha</option>
             <option value="Kubota">Kubota</option>
             <option value="Shell">Shell</option>
 
             <option value="KPTL">KPTL</option>
-            <option value="Kubota">Kubota</option>
-            <option value="Shell">Shell</option>
+            <option value="KPV">KPV</option>
+            <option value="kSP">KSP</option>
           </select>
         </div>
       </div>
@@ -167,13 +168,13 @@
             <option value="HR (ການຈັດເຝິກອົບຮົມ)">HR (ການຈັດເຝິກອົບຮົມ)</option>
             <option value="HR ( ສັນຫາ ວ່າຈ້າງ)">HR ( ສັນຫາ ວ່າຈ້າງ)</option>
             <option value="HR/Admin( ບໍລິການລົດ)">HR/Admin( ບໍລິການລົດ)</option>
-
             <option value="HR/Admin (ບໍລິການຫ້ອງການ)">HR/Admin (ບໍລິການຫ້ອງການ)</option>
-            <option value="ICT">ICT</option>
-            <option value="Shell">Shell</option>
-
             <option value="Finance - Accounting">Finance - Accounting</option>
+            <option value="ICT">ICT</option>
             <option value="ໜ່ວຍງານ  ISO">ໜ່ວຍງານ ISO</option>
+            <option value="BAD">BAD</option>
+            <option value="KPLG(ສາງ)">KPLG(ສາງ)</option>
+            <option value="KPLG(ຂົນສົ່ງ)">KPLG(ຂົນສົ່ງ)</option>
 
           </select>
         </div>
