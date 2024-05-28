@@ -129,7 +129,7 @@ body {
           <input type="radio" id="product" name="product" value="ຢາງລົດບຣີສະໂຕນ"/> ຢາງລົດບຣີສະໂຕນ  <br>
           <input type="radio" id="product" name="product" value="ລົດຈັກ ຢາມາຮາ"/> ລົດຈັກ ຢາມາຮາ  <br>
           <input type="radio" id="product" name="product" value="ຄູໂບຕ້າ"/> Kubota RT-NC  <br>
-          <input type="radio" id="product" name="product" value="ຄູໂບຕ້າ"/> Kubota Tractor  <br>
+          <input type="radio" id="product" name="product" value="ຄູໂບຕ້າ Tractor"/> Kubota Tractor  <br>
           <input type="radio" id="product" name="product" value="ປູ໋ຍ"/> ປູ໋ຍ  <br>
           <input type="radio" id="product" name="product" value="ນໍ້າມັນເຄື່ອງແຊນ"/> ນໍ້າມັນເຄື່ອງແຊນ  <br>
           <input type="radio" id="product" name="product" value="ໂຕໂຕ້"/> ໂຕໂຕ້
