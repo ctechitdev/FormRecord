@@ -171,6 +171,7 @@ body {
         <option value="HR (ການຈັດເຝິກອົບຮົມ)">HR (ການຈັດເຝິກອົບຮົມ)</option>
         <option value="HR ( ສັນຫາ ວ່າຈ້າງ)">HR ( ສັນຫາ ວ່າຈ້າງ)</option>
         <option value="HR/Admin( ບໍລິການລົດ)">HR/Admin( ບໍລິການລົດ)</option>
+
         <option value="HR/Admin (ບໍລິການຫ້ອງການ)">HR/Admin (ບໍລິການຫ້ອງການ)</option>
         <option value="Finance - Accounting">Finance - Accounting</option>
         <option value="ICT">ICT</option>          
