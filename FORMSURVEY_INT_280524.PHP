@@ -43,7 +43,8 @@ input[type=submit]:hover {
   float: left;
   width: 25%;
   margin-top: 6px;
-  color red;
+  margin-left: 12px;
+  
 }
 
 .col-75 {
@@ -51,6 +52,9 @@ input[type=submit]:hover {
   width: 75%;
   margin-top: 6px;
 }
+
+
+
 
 /* Clear floats after the columns */
 .row::after {
@@ -71,7 +75,7 @@ body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif,Saysettha OT;
    background-color: #d8dfe7;
-  color: #4b17a0;
+  color: darkblue;
 }
 .logoerea {
   background-color: white;
@@ -119,7 +123,7 @@ body {
       <input type="text" id="responder" name="responder" placeholder="Your name..">
     </div>
   </div>
-  <br>
+  
 
   <div class="row">
     <div class="col-25">
@@ -132,13 +136,14 @@ body {
         <option value="Unicharm">Unicharm</option>
         <option value="Food Catering">Food Catering</option>
 
-        <option value="Bridstone Tyres">Bridstone TyresYamaha</option>
+        <option value="Bridgestone Tyres">Bridgestone Tyres</option>
+        <option value="Yamaha">Yamaha</option>
         <option value="Kubota">Kubota</option>
         <option value="Shell">Shell</option>
 
         <option value="KPTL">KPTL</option>
-        <option value="Kubota">Kubota</option>
-        <option value="Shell">Shell</option>
+        <option value="KPV">KPV</option>
+        <option value="kSP">KSP</option>
       </select>
     </div>
   </div>
@@ -160,13 +165,13 @@ body {
         <option value="HR (ການຈັດເຝິກອົບຮົມ)">HR (ການຈັດເຝິກອົບຮົມ)</option>
         <option value="HR ( ສັນຫາ ວ່າຈ້າງ)">HR ( ສັນຫາ ວ່າຈ້າງ)</option>
         <option value="HR/Admin( ບໍລິການລົດ)">HR/Admin( ບໍລິການລົດ)</option>
-
         <option value="HR/Admin (ບໍລິການຫ້ອງການ)">HR/Admin (ບໍລິການຫ້ອງການ)</option>
-        <option value="ICT">ICT</option>
-        <option value="Shell">Shell</option>
-
         <option value="Finance - Accounting">Finance - Accounting</option>
+        <option value="ICT">ICT</option>          
         <option value="ໜ່ວຍງານ  ISO">ໜ່ວຍງານ  ISO</option>
+        <option value="BAD">BAD</option>
+        <option value="KPLG(ສາງ)">KPLG(ສາງ)</option>
+        <option value="KPLG(ຂົນສົ່ງ)">KPLG(ຂົນສົ່ງ)</option>
         
       </select>
     </div>
@@ -179,9 +184,10 @@ body {
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
     </div>
   </div>-->
+
   <div class="row">
-    <div class="col-25">
-      <label for="1. ກະບວນການ ແລະ ຂັ້ນຕອນການໃຫ້ບໍລິການມີຄວາມຊັດເຈນ ເຂົ້າໃຈງ່າຍ ແລະ ມີຄວາມຄ່ອງຕົວ">1. ກະບວນການ ແລະ ຂັ້ນຕອນການໃຫ້ບໍລິການມີຄວາມຊັດເຈນ ເຂົ້າໃຈງ່າຍ ແລະ ມີຄວາມຄ່ອງຕົວ</label>
+    <div class="col-25" >
+      <label for="1. ກະບວນການ ແລະ ຂັ້ນຕອນການໃຫ້ບໍລິການມີຄວາມຊັດເຈນ ເຂົ້າໃຈງ່າຍ ແລະ ມີຄວາມຄ່ອງຕົວ">I. ກະບວນການ ແລະ ຂັ້ນຕອນການໃຫ້ບໍລິການມີຄວາມຊັດເຈນ ເຂົ້າໃຈງ່າຍ ແລະ ມີຄວາມຄ່ອງຕົວ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="proceedanstep" name="proceedanstep" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -195,7 +201,7 @@ body {
   <br>
   <div class="row">
     <div class="col-25">
-      <label for="2. ຄວາມສາມາດໃນການໃຫ້ບໍລິການໄດ້ວ່ອງໄວ">2. ຄວາມສາມາດໃນການໃຫ້ບໍລິການໄດ້ວ່ອງໄວ</label>
+      <label for="2. ຄວາມສາມາດໃນການໃຫ້ບໍລິການໄດ້ວ່ອງໄວ">II. ຄວາມສາມາດໃນການໃຫ້ບໍລິການໄດ້ວ່ອງໄວ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="skilltoserve" name="skilltoserve" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -209,7 +215,7 @@ body {
   <br>
   <div class="row">
     <div class="col-25">
-      <label for="3. ທ່ານໄດ້ຮັບຄວາມສະດວກຈາກການຮັບບໍລິການ">3. ທ່ານໄດ້ຮັບຄວາມສະດວກຈາກການຮັບບໍລິການ</label>
+      <label for="3. ທ່ານໄດ້ຮັບຄວາມສະດວກຈາກການຮັບບໍລິການ">III. ທ່ານໄດ້ຮັບຄວາມສະດວກຈາກການຮັບບໍລິການ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="convinient" name="convinient" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -220,11 +226,11 @@ body {
         <input type="radio" id="convinient" name="convinient" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
+  <br>
   <div class="row">
     <div class="col-25">
-      <label for="4.  ຄວາມຊັດເຈນໃນການອະທິບາຍ ແລະ ສາມາດໃຫ້ຄໍາແນະນໍາໃນການ ໃຫ້ບໍລິການ">4.  ຄວາມຊັດເຈນໃນການອະທິບາຍ ແລະ ສາມາດໃຫ້ຄໍາແນະນໍາໃນການ ໃຫ້ບໍລິການ</label>
+      <label for="4.  ຄວາມຊັດເຈນໃນການອະທິບາຍ ແລະ ສາມາດໃຫ້ຄໍາແນະນໍາໃນການ ໃຫ້ບໍລິການ">IV.  ຄວາມຊັດເຈນໃນການອະທິບາຍ ແລະ ສາມາດໃຫ້ຄໍາແນະນໍາໃນການ ໃຫ້ບໍລິການ</label>
     </div>
-    <br>
     <div class="col-75">
         <input type="radio" id="clearexplain" name="clearexplain" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
         <input type="radio" id="clearexplain" name="clearexplain" value="4"/> 4 ຫຼາຍ <br>
@@ -237,7 +243,7 @@ body {
   <br>
   <div class="row">
     <div class="col-25">
-      <label for="5. ມີຄວາມເອົາໃຈໃສ່ ກະຕືລືລົ້ນ ແລະ ເຕັມໃຈໃນການໃຫ້ບໍລິການ">5. ມີຄວາມເອົາໃຈໃສ່ ກະຕືລືລົ້ນ ແລະ ເຕັມໃຈໃນການໃຫ້ບໍລິການ</label>
+      <label for="5. ມີຄວາມເອົາໃຈໃສ່ ກະຕືລືລົ້ນ ແລະ ເຕັມໃຈໃນການໃຫ້ບໍລິການ">V. ມີຄວາມເອົາໃຈໃສ່ ກະຕືລືລົ້ນ ແລະ ເຕັມໃຈໃນການໃຫ້ບໍລິການ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="intendtoserve" name="intendtoserve" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -251,7 +257,7 @@ body {
   <br>
   <div class="row">
     <div class="col-25">
-      <label for="6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ຊັກຖາມໄດ້ຕົງກັບຄວາມຕ້ອງການ">6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ຊັກຖາມໄດ້ຕົງກັບຄວາມຕ້ອງການ</label>
+      <label for="6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ສອບຖາມໄດ້ຕົງກັບຄວາມຕ້ອງການ">VI. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ສອບຖາມໄດ້ຕົງກັບຄວາມຕ້ອງການ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="haveknowledge" name="haveknowledge" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -265,7 +271,7 @@ body {
   <br>
   <div class="row">
     <div class="col-25">
-      <label for="7. ມີມະນຸດສໍາພັນດີ, ສຸພາບ ແລະ ເປັນມິດ">7. ມີມະນຸດສໍາພັນດີ, ສຸພາບ ແລະ ເປັນມິດ</label>
+      <label for="7. ມີມະນຸດສໍາພັນດີ, ສຸພາບ ແລະ ເປັນມິດ">VII. ມີມະນຸດສໍາພັນດີ, ສຸພາບ ແລະ ເປັນມິດ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="humanrelate" name="humanrelate" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -279,7 +285,7 @@ body {
   <br>
   <div class="row">
     <div class="col-25">
-      <label for="8.  ທ່ານມີຄວາມຮູ້ສຶກຕໍ່ພາບລວມໃນການໃຫ້ບໍລິການ">8.  ທ່ານມີຄວາມຮູ້ສຶກຕໍ່ພາບລວມໃນການໃຫ້ບໍລິການ</label>
+      <label for="8.  ທ່ານມີຄວາມຮູ້ສຶກຕໍ່ພາບລວມໃນການໃຫ້ບໍລິການ">VIII.  ທ່ານມີຄວາມຮູ້ສຶກຕໍ່ພາບລວມໃນການໃຫ້ບໍລິການ</label>
     </div>
   <div class="col-75">
         <input type="radio" id="generalview" name="generalview" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -290,17 +296,24 @@ body {
         <input type="radio" id="generalview" name="generalview" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
+
   <br>
+
+
   <div class="row">
     <div class="col-25">
-      <label for="ຫາກທ່ານມີຄໍາແນະນໍາ ຫຼື ຂໍ້ຮ້ອງຮຽນໃດໃດ ສາມາດລະບຸ ເພື່ອທີ່ບໍລິສັດ ຈະນໍາໄປໃຊ້ໃນການປັບປຸງການໃຫ້ບໍລິການຕໍ່ໄປ ">ຫາກທ່ານມີຄໍາແນະນໍາ ຫຼື ຂໍ້ຮ້ອງຮຽນໃດໃດ ສາມາດລະບຸ ເພື່ອທີ່ບໍລິສັດ ຈະນໍາໄປໃຊ້ໃນການປັບປຸງການໃຫ້ບໍລິການຕໍ່ໄປ </label>
+      <label for="ຫາກທ່ານມີຄໍາແນະນໍາ ຫຼື ຂໍ້ຮ້ອງຮຽນໃດໃດ ສາມາດລະບຸ ເພື່ອທີ່ບໍລິສັດ ຈະນໍາໄປໃຊ້ໃນການປັບປຸງການໃຫ້ບໍລິການຕໍ່ໄປ">ຫາກທ່ານມີຄໍາແນະນໍາ ຫຼື ຂໍ້ຮ້ອງຮຽນໃດໃດ ສາມາດລະບຸ ເພື່ອທີ່ບໍລິສັດ ຈະນໍາໄປໃຊ້ໃນການປັບປຸງການໃຫ້ບໍລິການຕໍ່ໄປ</label class="depterea">
     </div>
     <div class="col-75">
-    <b>ຄໍາແນະນໍາ</b> <br>
-   <!-- <textarea rows="3" cols="90" name="comment" form="usrform" placeholder="ຄໍາແນະນໍາ..."></textarea>  -->
-    <textarea rows="3" cols="90" name="comment" placeholder="ຄໍາແນະນໍາ..."></textarea>    
+      <input type="text" id="comment" name="comment" placeholder="ຄຳເຫັນ..">
+    </div>
   </div>
-  </div>
+
+
+
+
+
+
 
 
 
@@ -310,6 +323,8 @@ body {
 
   </div>
   </form>
+   
+
 </div>
 
 </body>

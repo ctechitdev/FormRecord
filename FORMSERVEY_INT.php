@@ -119,13 +119,14 @@ body {
       <input type="text" id="responder" name="responder" placeholder="Your name..">
     </div>
   </div>
-  <br>
+  
 
   <div class="row">
     <div class="col-25">
       <label for="ພະແນກຜູ້ປະເມີນ" id="div1">ພະແນກຜູ້ປະເມີນ</label>
       
     </div>
+    <br>
     <div class="col-75">
       <select id="dept" name="dept">
         <option value="Unilever and Best Food">Unilever and Best Food</option>
@@ -179,6 +180,7 @@ body {
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
     </div>
   </div>-->
+
   <div class="row">
     <div class="col-25">
       <label for="1. ກະບວນການ ແລະ ຂັ້ນຕອນການໃຫ້ບໍລິການມີຄວາມຊັດເຈນ ເຂົ້າໃຈງ່າຍ ແລະ ມີຄວາມຄ່ອງຕົວ">1. ກະບວນການ ແລະ ຂັ້ນຕອນການໃຫ້ບໍລິການມີຄວາມຊັດເຈນ ເຂົ້າໃຈງ່າຍ ແລະ ມີຄວາມຄ່ອງຕົວ</label>
@@ -206,7 +208,7 @@ body {
         <input type="radio" id="skilltoserve" name="skilltoserve" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
-  <br>
+
   <div class="row">
     <div class="col-25">
       <label for="3. ທ່ານໄດ້ຮັບຄວາມສະດວກຈາກການຮັບບໍລິການ">3. ທ່ານໄດ້ຮັບຄວາມສະດວກຈາກການຮັບບໍລິການ</label>
@@ -224,7 +226,6 @@ body {
     <div class="col-25">
       <label for="4.  ຄວາມຊັດເຈນໃນການອະທິບາຍ ແລະ ສາມາດໃຫ້ຄໍາແນະນໍາໃນການ ໃຫ້ບໍລິການ">4.  ຄວາມຊັດເຈນໃນການອະທິບາຍ ແລະ ສາມາດໃຫ້ຄໍາແນະນໍາໃນການ ໃຫ້ບໍລິການ</label>
     </div>
-    <br>
     <div class="col-75">
         <input type="radio" id="clearexplain" name="clearexplain" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
         <input type="radio" id="clearexplain" name="clearexplain" value="4"/> 4 ຫຼາຍ <br>
@@ -234,7 +235,6 @@ body {
         <input type="radio" id="clearexplain" name="clearexplain" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
-  <br>
   <div class="row">
     <div class="col-25">
       <label for="5. ມີຄວາມເອົາໃຈໃສ່ ກະຕືລືລົ້ນ ແລະ ເຕັມໃຈໃນການໃຫ້ບໍລິການ">5. ມີຄວາມເອົາໃຈໃສ່ ກະຕືລືລົ້ນ ແລະ ເຕັມໃຈໃນການໃຫ້ບໍລິການ</label>
@@ -248,10 +248,10 @@ body {
         <input type="radio" id="intendtoserve" name="intendtoserve" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
-  <br>
+
   <div class="row">
     <div class="col-25">
-      <label for="6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ຊັກຖາມໄດ້ຕົງກັບຄວາມຕ້ອງການ">6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ຊັກຖາມໄດ້ຕົງກັບຄວາມຕ້ອງການ</label>
+      <label for="6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ຊັກຖາມໄດ້ຕົງຄວາມຕ້ອງການ">6. ພະນັກງານມີຄວາມຮູ້, ຄວາມເຂົ້າໃຈ ສາມາດໃຫ້ຄໍາແນະນໍາ ແລະສາມາດຕອບຂໍ້ຊັກຖາມໄດ້ຕົງຄວາມຕ້ອງການ</label>
     </div>
     <div class="col-75">
         <input type="radio" id="haveknowledge" name="haveknowledge" value="5"/> 5 ຫຼາຍທີ່ສຸດ <br>
@@ -262,7 +262,7 @@ body {
         <input type="radio" id="haveknowledge" name="haveknowledge" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
-  <br>
+
   <div class="row">
     <div class="col-25">
       <label for="7. ມີມະນຸດສໍາພັນດີ, ສຸພາບ ແລະ ເປັນມິດ">7. ມີມະນຸດສໍາພັນດີ, ສຸພາບ ແລະ ເປັນມິດ</label>
@@ -276,7 +276,6 @@ body {
         <input type="radio" id="humanrelate" name="humanrelate" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
-  <br>
   <div class="row">
     <div class="col-25">
       <label for="8.  ທ່ານມີຄວາມຮູ້ສຶກຕໍ່ພາບລວມໃນການໃຫ້ບໍລິການ">8.  ທ່ານມີຄວາມຮູ້ສຶກຕໍ່ພາບລວມໃນການໃຫ້ບໍລິການ</label>
@@ -290,7 +289,7 @@ body {
         <input type="radio" id="generalview" name="generalview" value="0"/> 0 ບໍ່ແນ່ໃຈ / ບໍ່ພົບໃນການໃຊ້ບໍລິການ
     </div>
   </div>
-  <br>
+
   <div class="row">
     <div class="col-25">
       <label for="ຫາກທ່ານມີຄໍາແນະນໍາ ຫຼື ຂໍ້ຮ້ອງຮຽນໃດໃດ ສາມາດລະບຸ ເພື່ອທີ່ບໍລິສັດ ຈະນໍາໄປໃຊ້ໃນການປັບປຸງການໃຫ້ບໍລິການຕໍ່ໄປ ">ຫາກທ່ານມີຄໍາແນະນໍາ ຫຼື ຂໍ້ຮ້ອງຮຽນໃດໃດ ສາມາດລະບຸ ເພື່ອທີ່ບໍລິສັດ ຈະນໍາໄປໃຊ້ໃນການປັບປຸງການໃຫ້ບໍລິການຕໍ່ໄປ </label>
@@ -304,8 +303,10 @@ body {
 
 
 
-  <div class="row">
+  <!--<div class="row">-->
+
     <!--<input type="submit" name="save" value="Submit">-->
+   <div margin:16px> 
     <input class=button type="submit" name="save" value="Submit">
 
   </div>
