@@ -5,17 +5,19 @@ include_once 'database.php';
 //include_once 'database_local.php';
 if(isset($_POST['save']))
 {	 
+ 
+	
 	 $dept = $_POST['dept'];
 	 $dept2 = $_POST['dept2'];
      $responder = $_POST['responder']; 
-	 $proceedanstep = $_POST['proceedanstep']; 
-     $skilltoserve = $_POST['skilltoserve'];
-     $convinient = $_POST['convinient'];
-	 $clearexplain = $_POST['clearexplain'];
-	 $intendtoserve =$_POST['intendtoserve'];
-	 $haveknowledge = $_POST['haveknowledge'];
-	 $humanrelate = $_POST['humanrelate'];
-	 $generalview =$_POST['generalview'];
+	 $proceedanstep = empty($_POST['proceedanstep']) ? 0 : $_POST['proceedanstep'];
+	 $skilltoserve = empty($_POST['skilltoserve']) ? 0 : $_POST['skilltoserve'];
+	 $convinient = empty($_POST['convinient']) ? 0 : $_POST['convinient'];
+	 $clearexplain = empty($_POST['clearexplain']) ? 0 : $_POST['clearexplain'];
+	 $intendtoserve = empty($_POST['intendtoserve']) ? 0 : $_POST['intendtoserve'];
+	 $haveknowledge = empty($_POST['haveknowledge']) ? 0 : $_POST['haveknowledge'];
+	 $humanrelate = empty($_POST['humanrelate']) ? 0 : $_POST['humanrelate'];
+	 $generalview = empty($_POST['generalview']) ? 0 : $_POST['generalview'];
 	 $comment = $_POST['comment'];
 	 
 	 
