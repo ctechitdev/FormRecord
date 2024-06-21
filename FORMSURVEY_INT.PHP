@@ -191,11 +191,12 @@
 
                           <option value="Bridgestone Tyres">Bridgestone Tyres</option>
                           <option value="Yamaha">Yamaha</option>
-                          <option value="Kubota">Kubota</option>
+                          <option value="Kubota RT & NC">Kubota RT & NC</option>
+                          <option value="Kubota-Tractor">Kubota-Tractor</option>
                           <option value="Shell">Shell</option>
 
                           <option value="KPTL">KPTL</option>
-                          <option value="KP Logistics">KP LogisticsL</option>
+                          <option value="KP Logistics">KP Logistics</option>
                           <option value="KPV">KPV</option>
                           <option value="kSP">KSP</option>
                           <option value="ພະແນກ HR">ພະແນກ HR</option>
