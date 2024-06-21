@@ -37,11 +37,22 @@
     resize: vertical;
   }
 
+<<<<<<< HEAD
+        <option value="KPTL">KPTL</option>
+        <option value="KPLOG">KP Logistics</option>
+        <option value="KPV">KPV</option>
+        <option value="kSP">KSP</option>
+        <option value="ພະແນກ HR">ພະແນກ HR</option>
+        <option value="ພະແນກ Finance - Accounting">Finance - Accounting</option>
+        <option value="ພະແນກ ICT">ພະແນກ ICT</option>
+        <option value="ໜ່ວຍງານ BAD">ໜ່ວຍງານ BAD</option>
+=======
   label {
     font-family: phetsarath OT;
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
+>>>>>>> ff409bb0cb46c92aa71f4a79331ff4c6039df844
 
   input[type=submit] {
     background-color: #04AA6D;
@@ -195,6 +206,7 @@
                           <option value="Shell">Shell</option>
 
                           <option value="KPTL">KPTL</option>
+                          <option value="KP Logistics">KP LogisticsL</option>
                           <option value="KPV">KPV</option>
                           <option value="kSP">KSP</option>
                           <option value="ພະແນກ HR">ພະແນກ HR</option>
